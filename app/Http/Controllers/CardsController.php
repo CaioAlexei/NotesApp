@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\CardsFormRequest;
 use App\Models\Card;
 use Illuminate\Http\Request;
 
@@ -24,7 +25,7 @@ class CardsController extends Controller
         return view('cards.create');
     }
 
-    public function store(Request $request){
+    public function store(CardsFormRequest $request){
         $card = Card::create($request->all());
 
         return to_route('cards.index')

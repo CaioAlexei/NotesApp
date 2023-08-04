@@ -29,7 +29,7 @@ O Blade, também atua na segurança da aplicação, garantindo que os dados envi
 <ul>
 <li>Laravel</li>
 <li>SQLite</li>
-<li>Oloquent ORM</li>
+<li>Eloquent ORM</li>
 <li>Padrão de Projeto MVC</li>
 </ul>
 
@@ -37,3 +37,13 @@ No escopo de Backend, me aproveitei de diversas facilidades que o Laravel oferec
 , como a facilidade para criação de rotas, padrão MVC nativo, conexão com o Banco de Dados e operações com o mesmo através do Eloquent.
 Escolhi utilizar o SQLite como principal ferramenta de armazenamento pela simplicidade da aplicação, apesar de sua principal função
 ser a de servir como um Banco Local, sendo aplamente utilizado em Celulares, Televisões e outros dipositivos na qual há a necessidade de se guardar dados localmente sem passar por um servidor de Dados.
+
+<h3>Executar a Aplicação</h3>
+
+1° Execute o comando "composer install" para instalar as dependencias<br>
+2° Execute o comando "npm install" para instalar as dependencias<br>
+3° Baixe os drivers do SQLite para o PHP<br>
+4° Crie o arquivo database.sqlite dentro do diretório /database<br>
+5° Execute o comando "php artisan migrate" duas vezes, para fazer a migration entre o Laravel e o banco de dados<br>
+6° Execute o comando "php artisar serve" para iniciar a aplicação localmente<br>
+7° Em seu navegador acesse o localhost:8000/cards, para acessar a aplicação<br>
