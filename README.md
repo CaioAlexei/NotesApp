@@ -45,5 +45,5 @@ ser a de servir como um Banco Local, sendo aplamente utilizado em Celulares, Tel
 3° Baixe os drivers do SQLite para o PHP<br>
 4° Crie o arquivo database.sqlite dentro do diretório /database<br>
 5° Execute o comando "php artisan migrate" duas vezes, para fazer a migration entre o Laravel e o banco de dados<br>
-6° Execute o comando "php artisar serve" para iniciar a aplicação localmente<br>
-7° Em seu navegador acesse o localhost:8000/cards, para acessar a aplicação<br>
+6° Execute o comando "php artisan serve" para iniciar a aplicação localmente<br>
+7° Em seu navegador acesse o "localhost:8000/cards", para acessar a aplicação<br>
